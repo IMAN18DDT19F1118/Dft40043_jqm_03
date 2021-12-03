@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Mobile</title>
+    <link rel="stylesheet" href="themes/warna.min.css" />
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+    <script src="jquery.min.js"></script>
+    <script src="jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+    <div data-role="page" id="utama" data-theme="a">
+        <div data-role="header">
+            <h1>Laman Utama</h1>
+        </div>
+        <div data-role="main" class="ui-content" data-theme="a">
+            <h1>Kedai Buku</h1>
+            <p>
+                Selamat ke Kedai Buku Hasani.
+                Kami menjual pelbagai jenis Buku.
+                Klik pada menu BUKU untuk melihat pelbagai jenis buku.
+                senarai tudung yang kami jual.
+            </p>
+        </div>
+        <div data-role="footer" data-theme="a">
+            <a href="#utama" class="ui-btn">Utama</a>
+            <a href="#buku" class="ui-btn">Buku</a>
+            <a href="#beli" class="ui-btn">Beli</a>
+            <a href="#tempahan" class="ui-btn">Tempahan</a>
+        </div>
+    </div>
+
+    <div data-role="page" id="buku" data-theme="a">
+        <div data-role="header">
+            <h1>Senarai Buku</h1>
+        </div>
+        <div data-role="main" class="ui-content" data-theme="a">
+            <ul>
+                <li>Buku Sains</li>
+                <li>Buku Komik</li>
+                <li>Buku Sejarah</li>
+                <li>Buku Bahasa Melayu</li>
+                <li>Majalah</li>
+                <li>Buku Mewarna</li>
+            </ul>
+        </div>
+        <div data-role="footer" data-theme="a">
+            <a href="#utama" class="ui-btn">Utama</a>
+            <a href="#buku" class="ui-btn">Buku</a>
+            <a href="#beli" class="ui-btn">Beli</a>
+            <a href="#tempahan" class="ui-btn">Tempahan</a>
+        </div>
+    </div>
+
+    <div data-role="page" id="beli">
+        <div data-role="header">
+            <h1>Beli Buku</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <h4>Anda nak beli buku jenis apa?</h4>
+            <p>
+                Sila berkunjung ke kedai kami di;
+                <br><br>
+                KEDAI BUKU HASANI <br>
+                Simpang Empat <br> 06650 Alor Setar <br> Kedah
+            </p>
+            <p>Tel: 03-349056689</p>
+        </div>
+        <div data-role="footer">
+            <a href="#utama" class="ui-btn">Utama</a>
+            <a href="#buku" class="ui-btn">Buku</a>
+            <a href="#beli" class="ui-btn">Beli</a>
+            <a href="#tempahan" class="ui-btn">Tempahan</a>
+        </div>
+    </div>
+
+    <div data-role="page" id="tempahan">
+        <div data-role="header">
+            <h1>Tempahan Buku</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+             
+    <table border="1" width="600" cellpadding="5" cellspacing="0">
+            <tr>
+                <th rowspan="2">BIL</th>
+                <th rowspan="2">NAMA</th>
+                <th colspan="2">TEMPAHAN MASA</th>
+            </tr>
+           
+            <tr>
+                <th>TEMPAHAN ANDA</th>
+                <th>AKAN TIBA</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Muhammad Ali Bin Abdul Rahman</td>
+                <td>8 Pagi</td>
+                <td>9 Malam</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <th colspan="4">TAMAT</th>
+            </tr>
+        </table>
+    
+        <br><br><br>
+        </div>
+        <div data-role="footer">
+            <a href="#utama" class="ui-btn">Utama</a>
+            <a href="#buku" class="ui-btn">Buku</a>
+            <a href="#beli" class="ui-btn">Beli</a>
+            <a href="#tempahan" class="ui-btn">Tempahan</a>
+        </div>
+    </div>
